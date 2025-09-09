@@ -1,0 +1,569 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.HeroImage{
+  background-image:url(https://www.w3schools.com/w3images/parallax1.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .9;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+.HeroImage .Logo{
+   width: 360px;
+   height: 45px;
+   font-size: large;
+   letter-spacing: 7px;
+   background-color: black;
+   color: white;
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   margin-top: 125px;
+   margin-left: 515px;
+}
+.Logo p{
+   padding: 3px;
+   margin-right: 3px;
+}
+.HeroImage .Header{
+   display: flex;
+   justify-content: space-between;
+}
+.HeroImage .Header .Menu{
+   display: flex;
+   gap: 21px;
+   padding: 15px;
+   color: gray;
+} 
+.Menu i{
+   padding: 2px;
+}
+.HeroImage .Header .Search{
+   padding: 15px;
+   float: right;
+   color: gray;
+}
+
+.AboutMe{
+padding-top: 50px;
+text-align: center;
+color: gray;
+}
+.AboutMe h3{
+padding-top: 35px;
+}
+.AboutMe p{
+margin-left: 200px;
+margin-right: 200px;
+padding-top: 25px;
+text-align: justify;
+}
+.AboutMe2 {
+display: flex;
+gap: 25px;
+margin-left: 200px;
+margin-right: 200px;
+}
+.AboutMe2 .image{
+width: 50%;
+}
+.AboutMe2 .content{
+padding-left: 25px;
+padding-right: 25px; 
+color: gray; 
+}
+.content1{
+padding-top: 25px;
+text-align: center;
+color: gray;
+}
+.content2{
+margin-left: 200px;
+margin-bottom: 45px;
+text-align: left;
+color: gray;
+}
+.content2 .cover .Photography{
+height: 35px;
+width: 800px;
+border: 1px solid gray;
+background-color: gray;
+}
+.content2 .cover{
+height: 35px;
+width: 950px;
+border: 1px solid rgb(233, 228, 222);
+background-color: rgb(233, 228, 222);
+}  
+.content2 h3 {
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.content2 .cover .Photography p{
+text-align: center;
+color: beige;
+padding-top: 9px;
+}
+.content2 .cover2 .WebDesign{
+height: 35px;
+width: 700px;
+border: 1px solid gray;
+background-color: gray;
+}
+.content2 .cover2{
+height: 35px;
+width: 950px;
+border: 1px solid rgb(233, 228, 222);
+background-color: rgb(233, 228, 222);
+}  
+.content2 .cover2 .WebDesign p{
+text-align: center;
+color: beige;
+padding-top: 9px;
+}
+.content2 .cover3 .Photoshop{
+height: 35px;
+width: 600px;
+border: 1px solid gray;
+background-color: gray;
+}
+.content2 .cover3{
+height: 35px;
+width: 950px;
+border: 1px solid rgb(233, 228, 222);
+background-color: rgb(233, 228, 222);
+}  
+.content2 .cover3 .Photoshop p{
+text-align: center;
+color: beige;
+padding-top: 9px;
+}
+
+.container{
+height: 130px;
+width: 100%;
+background-color: gray;
+}
+.container .text{
+grid-template-rows: 1fr 1fr 1fr 1fr;
+display: flex;
+gap: 245px;
+padding: 45px;
+margin-left: 100px;
+margin-right: 25px;
+}
+.container .text p{
+text-align: center;
+color: white;
+font-weight: 600;
+font-size: large;
+}
+.Bgimg{
+background-image: url("https://www.w3schools.com/w3images/parallax2.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: 350px;
+}
+.Bgimg .Bgtext{
+text-align: center;
+color: white;
+font-size: 40px;
+padding: 150px;
+}
+.container2{
+margin-top: 35px;
+text-align: center;
+color: gray;
+padding: 45px;
+}
+.container2 .Work{
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.Imagecontainer{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+justify-content: center; 
+align-items: center; 
+width: 70%;
+margin: auto; 
+}
+.Imagecontainer img {
+width: 94%;
+height: 92%;
+object-fit: cover;
+}
+.LoadMore{
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+margin-top: 45px;
+size: 25px;
+}
+.LoadMore button{
+border: none;
+width: 150px;
+height: 50px;
+background-color: rgb(209, 196, 196);
+font-size: 15px;
+}
+.Bgimg2{
+background-image: url("https://www.w3schools.com/w3images/parallax3.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: 400px;
+margin-top: 85px;
+margin-bottom: 75px;
+}
+.Bgimg2 .text2{
+text-align: center;
+padding-top: 200px;
+color: white;
+font-size: 40px;
+}
+.TextWork p{
+text-align: center;
+color: gray;
+padding: 12px;
+}
+.TextWork .txt1{
+font-size: x-large;
+}
+.TextWork .txt2{
+font-size: medium;
+}
+.Address{
+display: flex;
+gap: 25px;
+align-items: center;
+justify-content: center;
+margin-top: 15px;
+width: 100%;
+}
+.Address .map img{
+   width: 45%;
+   height: 45%;
+   margin-left: 300px;
+}
+.Address .Contactdetails{
+     margin-right: 475px;
+     color: gray;
+     white-space: nowrap;
+}
+.Contactdetails p{
+   font-size: medium;
+   padding: 5px;
+}
+.Contactdetails i{
+   margin-right: 15px;
+}
+.Address .Contactdetails .coffee{
+   padding-top: 15px;
+}
+.coffee i{
+   margin-right: 0px;
+}
+.form{
+   margin-left: 575px;
+   border-color: gray;
+}
+.form .frm{
+   display: flex;
+   gap: 15px;
+}
+.f1 input{
+   height: 42px;
+   width: 268px;
+}
+.f2 input{
+   height: 42px;
+   width: 268px;
+}
+.f3 input{
+   margin-top: 8px;
+   height: 42px;
+   width: 555px;
+}
+.form .Enter{
+   margin-top: 15px;
+   margin-left: 445px;
+}
+.Enter button{
+   border-radius: none;
+   height: 45px;
+   width: 175px;
+   background-color: black;
+   color: white;
+}
+.footer{
+   width: 100%;
+   height: 295px;
+   margin-top: 95px;
+   background-color: gray;
+}
+.footer .icons{
+   display: flex;
+   justify-content: center;
+}
+.icons i{
+   color: white;
+   margin-top: 155px;
+   padding: 2px;
+   font-size: 25px;
+}
+
+
+@media (max-width: 390px) {
+   /* Hero Section */
+  .HeroImage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .9;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+  .HeroImage .Logo {
+    width: 225px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Logo p{
+    text-align: center;
+  }
+  .HeroImage .Header {
+    /* flex-direction: column; */
+    align-items: center;
+  }
+  .HeroImage .Header .Menu {
+    /* flex-direction: column; */
+    gap: 10px;
+    padding: 10px;
+  }
+  .HeroImage .Header .Search {
+    padding: 10px;
+  }
+
+  /* AboutMe section */
+  .AboutMe {
+    padding: 20px 10px;
+    text-align: center;
+  }
+  .AboutMe h3 {
+    padding-top: 20px;
+  }
+  .AboutMe p {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* AboutMe2 section: image + content */
+  .AboutMe2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    gap: 15px;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .AboutMe2 .image,
+  .AboutMe2 .content {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .AboutMe2 .image img {
+    width: 90%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Content2 section: skill bars */
+  .content2 {
+    margin: 20px auto;
+    width: 90%;
+    text-align: center;
+  }
+  .content2 h3 {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Outer container of bar */
+  .content2 .cover,
+  .content2 .cover2,
+  .content2 .cover3 {
+    width: 90%;          /* full width of mobile screen */
+    margin: 10px auto;
+    background-color: rgb(233, 228, 222);
+    height: 35px;
+    border-radius: 5px;
+    position: relative;   /* for inner bar positioning */
+  }
+
+  /* Inner skill bar */
+  .content2 .cover .Photography {
+    width: 90%;          /* keep desktop percentage here */
+    max-width: 90%;      /* 90% of container */
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+
+  .content2 .cover2 .WebDesign {
+    width: 85%;          /* specific percentage for this skill */
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+
+  .content2 .cover3 .Photoshop {
+    width: 75%;          /* specific percentage for this skill */
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+   
+  .container .text {
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center inside flex container */
+    height: 130px;             /* match your container height */
+    gap: 20px;
+    padding: 0;                /* remove extra padding that pushes content */
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .container .text p {
+    font-size: 16px;
+    margin: 0;                 /* remove default margins */
+  }
+
+  .Bgimg {
+    height: 250px;
+  }
+
+  .Bgimg .Bgtext {
+    font-size: 24px;
+    padding: 80px 10px;
+  }
+  
+  .TextWork p {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .TextWork .txt1 {
+    font-size: large;
+  }
+  
+  .TextWork .txt2 {
+    font-size: small;
+  }
+  
+  .Address {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .Address .map img {
+    width: 90%;
+    height: auto;
+    margin-left: 0;
+  }
+  
+  .Address .Contactdetails {
+    margin-right: 0;
+    text-align: center;
+    white-space: normal;
+  }
+  
+  .Contactdetails p {
+    font-size: small;
+    padding: 3px 0;
+  }
+  
+  .Contactdetails i {
+    margin-right: 8px;
+  }
+  
+  .Address .Contactdetails .coffee {
+    padding-top: 10px;
+  }
+  
+  .coffee i {
+    margin-right: 5px;
+  }
+  
+  .form {
+    margin-left: 0;
+    width: 95%;
+    border-color: gray;
+  }
+  
+  .form .frm {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .f1 input,
+  .f2 input {
+    width: 100%;
+  }
+  
+  .f3 input {
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .form .Enter {
+    margin: 15px 0 0 0;
+    text-align: center;
+  }
+  
+  .Enter button {
+    width: 80%;
+    height: 45px;
+  }
+}
+
+
+
+
+
